@@ -31,3 +31,93 @@ font-size: 18px;
 color: #e5e7eb;
 font-family: 'Courier New', Courier, monospace;
 }
+
+hero {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(31, 41, 55, 255);
+  height: 220px;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  justify-content: center;
+}
+
+.heroblock{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.herotext{
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #F9FAF8;
+}
+
+.herotitle{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.signupbutton{
+  color: #F9FAF8;
+  font-weight: bold;
+  background-color: #3882F6;
+  border-radius: 4px;
+  border-color: #3882F6;
+  box-shadow: none;
+  border: 0;
+  height: 30px;
+  width: 100px;
+}
+
+.heroimage{
+  display: flex;
+  width: 48%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: #F9FAF8;
+  background-color: grey;
+
+}
+
+h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.row-of-blue-divs{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  max-width: 100%;
+  margin: auto;
+  align-content: baseline;
+}
+
+.box-blue{
+  border: 2px solid #3882F6;
+  height: 170px;
+  width: 170px;
+  border-radius: 25px;
+  margin-right: 80px;
+
+}
+
+.second-section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.p-second{
+  flex-wrap: wrap;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
