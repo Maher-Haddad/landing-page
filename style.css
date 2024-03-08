@@ -142,10 +142,11 @@ strong{
   display: flex;
   flex-direction: column;
   background-color: #3882F6;
-  padding: 20px 30px;
+  padding: 10px 30px;
   height: 160px;
   width: 1000px;
   border-radius: 25px;
+  padding-bottom: 0px;
 }
 
 .final-section-button{
