@@ -89,16 +89,15 @@ h2{
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  max-width: 100%;
   text-align: center;
 }
 
 .row-of-blue-divs{
   display: flex;
-  flex-direction: row;
-  justify-content:space-around;
+  flex-direction: column;
+  justify-content: center;
   max-width: 100%;
-  margin: auto;
-  align-content: baseline;
 }
 
 .box-blue{
@@ -112,12 +111,82 @@ h2{
 
 .second-section
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+display: flex;
+justify-content: center;
 }
 
 .p-second{
-  flex-wrap: wrap;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  max-width: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.quote{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 42px;
+  font-style: italic;
+}
+
+strong{
+  font-size: 32px;
+  float: right;
+}
+
+.blue-box{
+  display: flex;
+  flex-direction: column;
+  background-color: #3882F6;
+  padding: 20px 30px;
+  height: 160px;
+  width: 1000px;
+  border-radius: 25px;
+}
+
+.final-section-button{
+  height: 50px;
+  width: 200px;
+  border: 2px solid white;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 25px;
+  margin-left: 700px;
+  margin-top: -20px;
+  max-width: 20%;
+  font-size: 25px;
+}
+
+.final-section{
+  display: flex;
+  justify-content:center;
+  height: 300px;
+  padding-top: 50px;
+  margin-bottom: -50px;
+  color: #F9FAF8;
+}
+
+.p-final{
+  color: white;
+  font-size: 22px;
+  margin-top: -30px;
+  max-width: 70%;
+}
+
+h1{
+  margin-bottom: 5px;
+}
+
+.copyright{
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #F9FAF8;
+  background-color: #1f2937;
+  height: 60px;
+  max-width: 100%;
 }
